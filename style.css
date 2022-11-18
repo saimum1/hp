@@ -1,0 +1,208 @@
+body {
+    margin: 0%;
+    padding: 0%;
+   
+}
+
+section {
+    position: relative;
+}
+
+.first-container {
+    background-image: url('./images/Background.png');
+    position: absolute;
+    width: 100%;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+    background-size: cover;
+    /* background: linear-gradient(107.6deg, #7A1F7A 0.33%, rgba(7, 0, 7, 0) 98.77%); */
+    mix-blend-mode: multiply;
+}
+
+.header {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 241px;
+    left: 0px;
+    top: 0px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(6, 0, 0, 0.25) 41.91%, rgba(6, 0, 0, 0) 100%);
+}
+
+.header a {
+    width: 100px;
+    height: 38px;
+    left: 688px;
+    top: 90px;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 38px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.first-session p {
+    display: inline-block;
+    margin-right: 53px;
+    margin-left: 7px;
+}
+
+p {
+    letter-spacing: 3px;
+    border: 5px solid #FD5811;
+    /* border-image-source: linear-gradient(180deg, #FD5811 0%, #FBC533 100%); */
+    padding: 5px;
+    border-radius: 15px;
+    padding: 25px 30px;
+}
+
+.logo {
+    position: absolute;
+    width: 490.63px;
+    height: 228px;
+    top: 50%;
+    left: 32%;
+    margin: -25px 0 0 -25px;
+}
+
+.enter-container {
+    position: absolute;
+    width: 100%;
+    height: 255px;
+    top: 1020px;
+    background: url('./images/Rectangle\ 16.png');
+    /* background: rgba(34, 23, 34, 0.85); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.enter-btn {
+    margin-top: 100px;
+    height: 115px;
+    width: 48%;
+    border-radius: 15px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 75px;
+    color: #FFFFFF;
+    background: rgba(22, 0, 41, 0.75);
+    box-shadow: -10px -10px 25px rgba(253, 88, 17, 0.5), 10px 10px 20px rgba(251, 197, 51, 0.5);
+    border-radius: 15px;
+    border: 5px solid #FD5811;
+    box-sizing: border-box;
+}
+
+.card-container {
+    text-align: center;
+    background-image: url('./images/skye-01\ 1.png');
+    /* background: linear-gradient(107.6deg, #661566 0.33%, rgba(7, 0, 7, 0) 98.77%); */
+    background-size: cover;
+    height: 1080px;
+    width: 100%;
+    border-radius: 0px;
+    position: absolute;
+    left: 0px;
+    top: 1300px;
+    /* background: linear-gradient(107.6deg, #7A1F7A 0.33%, rgba(7, 0, 7, 0) 98.77%); */
+    mix-blend-mode: multiply;
+}
+
+.running-btn {
+    margin-top: 140px;
+    height: 115px;
+    width: 48%;
+    border-radius: 15px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 75px;
+    color: #FFFFFF;
+    background: rgba(22, 0, 41, 0.75);
+    border-radius: 15px;
+    border-left: 5px solid rgba(95, 35, 65, 1);
+    border-top: 5px solid rgba(253, 88, 17, 1);
+    border-right: 5px solid rgba(73, 27, 72, 1);
+    border-bottom: 5px solid rgba(253, 88, 17, 1);
+    box-sizing: border-box;
+}
+
+.sub-card-container {
+    width: 90%;
+    margin: 60px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+    margin: 100px auto;
+    height: 70%;
+    width: 90%;
+    border-radius: 15px;
+    background: linear-gradient(180deg, #FD5811 0%, #FBC533 100%);
+    padding: 20px 10px;
+    box-shadow: -10px -10px 25px rgba(253, 88, 17, 0.5), 10px 10px 20px rgba(251, 197, 51, 0.5);
+}
+
+.card-field {
+    margin-top: 20px;
+    height: 310px;
+    border-radius: 15px;
+    background: rgba(24, 2, 41, 1);
+}
+
+.card-btn {
+    text-align: center;
+    height: 51.6589469909668px;
+    width: 90%;
+    border-radius: 15px;
+    background: rgba(24, 2, 41, 1);
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.out-container {
+    background-image: url('./images/partner-01-01\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 0px;
+    top: 2350px;
+    mix-blend-mode: multiply;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    border-radius: 0px;
+}
+
+.address-container {
+    background-image: url('./images/Rectangle\ 18.png');
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    left: 0px;
+    top: 2600px;
+    text-align: center;
+    /* background: radial-gradient(49.31% 155.47% at 49.19% 50.69%, #7A1F7A 0%, rgba(7, 0, 7, 0) 100%) */
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+    ;
+}
+
+
+
+/********navbar***/
+
